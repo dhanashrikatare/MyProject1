@@ -1,0 +1,5 @@
+package com.activities.requests;
+
+public class ValidateGetMethodWithSpecific {
+
+}

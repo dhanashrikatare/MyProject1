@@ -1,0 +1,7 @@
+Feature:this feature file contains the test cases for get request
+
+Scenario: to verify the valid 'Activities>GET' method for valid response
+
+Given Base Url 
+When i am going to send the url to 
+Then i should get the valid response code 200

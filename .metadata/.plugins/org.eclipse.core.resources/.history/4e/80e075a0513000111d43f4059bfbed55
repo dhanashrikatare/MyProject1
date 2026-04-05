@@ -1,0 +1,25 @@
+package com.activities.request;
+
+import static io.restassured.RestAssured.*;
+
+public class AuthorsPostValidReqSpec {
+	
+	
+	static int randomNum = (int)(Math.random()*1000);
+	
+	
+	public void verifyPostWithValidReqSpec() {
+		given().
+		body("{\r\n"
+				+ "  \"id\": "+randomNum+",\r\n"
+				+ "  \"idBook\": "+randomNum+",\r\n"
+				+ "  \"firstName\": \"string\",\r\n"
+				+ "  \"lastName\": \"string\"\r\n"
+				+ "}").
+		when().
+		
+		
+	}
+	
+
+}

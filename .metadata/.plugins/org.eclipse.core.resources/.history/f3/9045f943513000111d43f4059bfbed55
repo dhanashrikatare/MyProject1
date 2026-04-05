@@ -1,0 +1,22 @@
+package com.activities.request;
+
+import static io.restassured.RestAssured.*;
+
+public class AuthorsPostValidReqSpec {
+	
+	
+	public void verifyPostWithValidReqSpec() {
+		given().
+		body("{\r\n"
+				+ "  \"id\": 0,\r\n"
+				+ "  \"idBook\": 0,\r\n"
+				+ "  \"firstName\": \"string\",\r\n"
+				+ "  \"lastName\": \"string\"\r\n"
+				+ "}").
+		when().
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package com.activities.requests;
+import static io.restassured.RestAssured.*;
+import org.testng.annotations.Test;
+
+public class ValidateGetMethod {
+	
+	
+	@Test
+	public void verifyGetWithValidReqSpec() {
+		
+		given().
+		
+		
+		
+	}
+
+}

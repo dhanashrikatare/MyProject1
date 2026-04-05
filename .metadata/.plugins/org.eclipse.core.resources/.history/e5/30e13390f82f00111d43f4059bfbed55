@@ -1,0 +1,3 @@
+Feature:this feature file contains the test cases for get request
+
+Scenario: to verify the valid 'Activities>GET' method for valid responser

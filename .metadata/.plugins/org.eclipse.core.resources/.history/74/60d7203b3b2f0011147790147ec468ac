@@ -1,0 +1,13 @@
+package com.activities.requests;
+
+import org.testng.annotations.Test;
+
+public class ValidateGetMethod {
+	
+	
+	@Test
+	public void verifyGetWithValidReqSpec() {
+		
+	}
+
+}

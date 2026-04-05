@@ -1,0 +1,15 @@
+package com.activities.request;
+
+import static io.restassured.RestAssured.*;
+
+public class AuthorsPostValidReqSpec {
+	
+	
+	public void verifyPostWithValidReqSpec() {
+		
+		
+		
+	}
+	
+
+}
